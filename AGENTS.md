@@ -1,12 +1,7 @@
-<!-- LOVABLE:BEGIN -->
+# Gupta's Agency Project Guidelines
 
-> [!IMPORTANT]
-> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
-> published git history — force pushing, or rebasing/amending/squashing commits
-> that are already pushed — as it rewrites history on Lovable's side and the
-> user will likely lose their project history.
->
-> Commits you push to the connected branch sync back to Lovable and show up in
-> the editor, so keep the branch in a working state.
-
-<!-- LOVABLE:END -->
+- **Architecture:** Built with React, Vite, and TanStack Start for seamless routing and server-side capabilities.
+- **Conventions:** Follow strict TypeScript typing and consistent component-based design. Maintain responsive and accessible UI.
+- **Testing:** Ensure automated tests pass and check responsiveness before deploying. Use `npm test` and `npm run build`.
+- **Environment Variables:** Keep secrets out of the codebase. Use `.env` file (not committed) for local development configurations.
+- **Functionality:** Preserve existing layout, routing, and animations when extending the site.
